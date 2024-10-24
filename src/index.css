@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,html {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    --primary-light: #29a98b;
+    --primary-medium: #20876f;
+    --primary-dark: #186553;
+    --black: #31363c;
+    --secondary: #682c5d;
+}
