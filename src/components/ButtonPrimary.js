@@ -1,6 +1,6 @@
-function ButtonPrimary({text}) {
+function ButtonPrimary({text, onClick}) {
     return (
-        <button>{text}</button>
+        <button onClick={onClick} className='bg-primary-light text-white p-4 rounded-3xl font-bold transition-colors hover:bg-primary-light-90'>{text.toUpperCase()}</button>
     );
 }
 
